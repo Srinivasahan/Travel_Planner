@@ -1,0 +1,26 @@
+export const SliderData = [
+    {
+      image:
+        'https://media.istockphoto.com/id/1256296335/photo/a-romantic-couple-on-summer-vacation-enjos-the-sunset-over-the-mediterranean-sea-by-the-pool.jpg?s=612x612&w=0&k=20&c=FJurmc0CUMEpoAdRIUfJ2rHIOM-gYs-V5MM_0PoOJtQ='
+    },
+    {
+      image:
+        'https://c4.wallpaperflare.com/wallpaper/1023/540/945/couple-travel-hands-romance-wallpaper-preview.jpg'
+    },
+    {
+      image:
+        'https://media.istockphoto.com/id/597927618/photo/young-boy-with-goggles-imagines-flying-on-suitcase.webp?b=1&s=170667a&w=0&k=20&c=cmvvJSlkJBrvqMUWw5jaylwoeINZiVAQPcjxZR9UFzs='
+    },
+    {
+      image:
+        'https://e1.pxfuel.com/desktop-wallpaper/932/777/desktop-wallpaper-travel-agency-list-travel-boy.jpg'
+    },
+    {
+      image:
+        'https://lh4.googleusercontent.com/proxy/9eZtPCS397BuoV-ddPWbbqup_o1aZJI3rDmUDKVKUH9pJH3CRVmtjCfb0WAoXvNxX1qzJ-q3a6XIFyKzRDMKd7i1tQPLcusZWcIisAVAvbzl'
+},
+    {
+      image:
+        'https://static.vecteezy.com/system/resources/previews/006/222/902/large_2x/group-of-beautiful-young-people-who-do-selfies-lying-on-the-pier-the-best-friends-of-girls-and-boys-with-pleasure-concept-creates-emotional-life-of-people-photo.jpg'
+}
+];

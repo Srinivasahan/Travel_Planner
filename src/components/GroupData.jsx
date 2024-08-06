@@ -1,0 +1,26 @@
+export const GroupData = [
+    {
+      image:
+      'https://images.pexels.com/photos/977460/pexels-photo-977460.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      image:
+        'https://images.pexels.com/photos/5046443/pexels-photo-5046443.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      image:
+        'https://images.pexels.com/photos/1549196/pexels-photo-1549196.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      image:
+        'https://images.pexels.com/photos/2647973/pexels-photo-2647973.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      image:
+        'https://images.pexels.com/photos/5098287/pexels-photo-5098287.jpeg?auto=compress&cs=tinysrgb&w=600'
+},
+    {
+      image:
+        'https://images.pexels.com/photos/4453153/pexels-photo-4453153.jpeg?auto=compress&cs=tinysrgb&w=600'
+}
+];
