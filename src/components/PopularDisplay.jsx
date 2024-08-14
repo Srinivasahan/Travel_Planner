@@ -51,6 +51,7 @@ function PopularDisplay() {
                   <b>{menu.name}</b>
                 </Typography>
                 <Typography variant="body2">{menu.description}</Typography>
+                <Typography variant="body2">{menu.price}</Typography>
                 <Typography>
                   <b>Rating</b> {menu.Rating}
                 </Typography>

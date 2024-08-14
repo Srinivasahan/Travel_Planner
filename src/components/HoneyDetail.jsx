@@ -68,7 +68,7 @@ function HoneyDetail() {
             }
           }}
         >
-          Enquire Now
+          Book Now
         </Button>
         </Link>
       </Box>

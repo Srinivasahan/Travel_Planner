@@ -1,13 +1,12 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Box, Button, Typography } from '@mui/material';
-import { Popular } from './Popular';
-import { Link } from 'react-router-dom';
 import './Detail.css';
-
-function Detail() {
+import { Link } from 'react-router-dom';
+import { GroupData } from './GroupData';
+function GroupDetail() {
   const { id } = useParams();
-  const tour = Popular.find((tour) => tour.id === id);
+  const tour = GroupData.find((tour) => tour.id === id);
   if (!tour) {
     return <Typography>Tour not found</Typography>;
   }
@@ -71,7 +70,6 @@ function Detail() {
           Book Now
         </Button>
         </Link>
-
       </Box>
 
       <Box sx={{ mt: 2 }}>
@@ -154,4 +152,4 @@ function Detail() {
   );
 }
 
-export default Detail;
+export default GroupDetail;

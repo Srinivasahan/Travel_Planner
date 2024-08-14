@@ -9,6 +9,11 @@ import { UserProvider } from './components/UserContext';
 import GroupTour from './components/GroupTour';
 import HoneyDetail from './components/HoneyDetail';
 import EnquiryForm from './components/EnquiryForm';
+import GroupDetail from './components/GroupDetail';
+import React from "react";
+import ChatBot from "./components/chatbot/ChatBot.jsx";
+import Review from './components/Review.jsx';
+
 const route=createBrowserRouter(
   createRoutesFromElements(
     <Route>
@@ -18,8 +23,11 @@ const route=createBrowserRouter(
       <Route path="/honeymoon" element={<Honeymoon />} />
       <Route path="/tours/:id" element={<Details />} />
       <Route path="/coupletours/:id" element={<HoneyDetail />} />
+      <Route path="/grouptour/:id" element={<GroupDetail />} />
       <Route path="/grouptour" element={<GroupTour/>} />
       <Route path="/contact" element={<EnquiryForm/>} />
+      <Route path="/mybot" element={<ChatBot/>} />
+      <Route path="/review" element={<Review/>} />
     </Route>
   )
 )

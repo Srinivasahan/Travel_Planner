@@ -5,6 +5,7 @@ import ImageSlider from './ImageSlider';
 import { SliderData } from './SliderData';
 import PopularDisplay from './PopularDisplay';
 import { UserContext } from './UserContext';
+import Dialouge from './Dialouge';
 
 const styles = {
   container: {

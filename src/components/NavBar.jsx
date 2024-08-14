@@ -25,6 +25,12 @@ const NavBar = () => {
             <Link to="/home">
             <button style={styles.otherButton}>Home</button>
             </Link>
+            <Link to="/mybot">
+            <button style={styles.otherButton}>Chat with me</button>
+            </Link>
+            <Link to="/review">
+            <button style={styles.otherButton}>Review</button>
+            </Link>
             <About />
           </div>
         </div>

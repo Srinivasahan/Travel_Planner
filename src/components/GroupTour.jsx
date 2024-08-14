@@ -8,6 +8,8 @@ import Popular from './Popular';
 import PopularDisplay from './PopularDisplay';
 import { HoneySliderData } from './HoneySliderData';
 import { GroupData } from './GroupData';
+import GroupImageSlider from './GroupImageSlider';
+import GroupDisplay from './GroupDisplay';
 function GroupTour() {
   return (
     <div style={styles.container}>
@@ -15,8 +17,8 @@ function GroupTour() {
       <div style={styles.content}>
       </div>
       <>
-      <ImageSlider slides={GroupData}/>
-      <PopularDisplay/>
+      <GroupImageSlider slides={GroupData}/>
+      <GroupDisplay/>
       </>
       <MyFooter />
     </div>

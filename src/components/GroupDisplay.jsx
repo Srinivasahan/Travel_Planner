@@ -1,24 +1,23 @@
 import React from 'react';
 import { Box, Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import { HoneyDisplayData } from './HoneyDisplayData';
-
-function HoneyDisplay() {
+import { GroupData } from './GroupData';
+function GroupDisplay() {
   const navigate = useNavigate();
 
   const handleCardClick = (id) => {
-    navigate(`/coupletours/${id}`);
+    navigate(`/grouptour/${id}`);
   };
 
   return (
     <>
       <Box sx={styles.header}>
         <Typography variant="h5" sx={styles.headerText}>
-          Couple Packages
+          Group Packages
         </Typography>
       </Box>
       <Box sx={styles.container}>
-        {HoneyDisplayData.map((menu) => (
+        {GroupData.map((menu) => (
           <Card
             key={menu.id}
             sx={styles.card}
@@ -90,4 +89,4 @@ const styles = {
   },
 };
 
-export default HoneyDisplay;
+export default GroupDisplay;
